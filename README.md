@@ -1,36 +1,42 @@
 # Keith Lienert Individual Project
 
 ### Problem Statement
+This app is an online quiz builder.
+Teachers can build their own quizzes on this platform.
+Students will be able to log-in, select their teacher, select the quiz and see the results thereafter. 
+ 
 
-Applicable sight-reading tool that is available on the web.
 
 
 
 
 ### Project Technologies/Techniques
-#### (From Paula's FatBikeTrail app)...
+
 * Security/Authentication
-    * Tomcat's JDBC Realm Authentication
+  * TBD
 * Database
     * MySQL 8.0.22
 * Dependency Management
     * Maven
 * Web Services consumed using Java
 * CSS
-    * Bootstrap or Materialize (tbd)
+    * Bootstrap
 * Data Validation
     * Bootstrap Validator for front end
+* Logging
+  * Log4J2
 * Hosting
     * AWS
 * Independent Research Topic(s)
+  * APIs/plugins for sounds samples
 * Unit Testing    
 * IDE: IntelliJ IDEA
 
 
 ### Design
+* [Project Plan](projectPlan.md)
+* [User Stories](userStories.md)
+* [Screen Design](DesignDocs/screenDesign.md)
+* [Time Log](timeLog.md)
 
-### Project Plan
-[//]: # (### [Project Plan]&#40;ProjectPlan.md&#41;)
 
-### Examples of documentation of progress, reflections, and time spent on this class
-Choose a format that works for you, or create your own.
