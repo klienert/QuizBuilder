@@ -35,8 +35,10 @@ Students will be able to log-in, select their teacher, select the quiz and see t
 
 ### Design
 * [Project Plan](projectPlan.md)
-* [User Stories](userStories.md)
+* [User Stories](DesignDocs/userStories.md)
 * [Screen Design](DesignDocs/screenDesign.md)
+
+
+
+### Examples of documentation of progress, reflection, and time spent on this class
 * [Time Log](timeLog.md)
-
-
