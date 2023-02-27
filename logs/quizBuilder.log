@@ -10,3 +10,11 @@
 [ERROR] 2023-02-26 21:53:04.307 [main] Database - java.sql.SQLException: Cannot drop table 'user' referenced by a foreign key constraint 'FK_user_ID' on table 'quiz'.
 [ERROR] 2023-02-26 21:53:04.831 [main] Database - java.sql.SQLException: Cannot drop table 'user' referenced by a foreign key constraint 'FK_user_ID' on table 'quiz'.
 [DEBUG] 2023-02-26 22:38:17.933 [main] UserDao - The list of Users [User{id=1, firstName='Homer', lastName='Simpson', userName='hsimpson', password='donuts1', email='hsimpson@email.com'}, User{id=2, firstName='Marge', lastName='Simpson', userName='msimpson', password='donuts2', email='msimpson@email.com'}, User{id=3, firstName='Bart', lastName='Simpson', userName='bsimpson', password='donuts3', email='bsimpson@email.com'}, User{id=4, firstName='Lisa', lastName='Simpson', userName='lsimpson', password='donuts4', email='lsimpson@email.com'}]
+[DEBUG] 2023-02-26 22:46:44.246 [main] UserDao - Searching for User with firstName == Bart
+[DEBUG] 2023-02-26 22:46:44.343 [main] UserDao - Searching for User with firstName == Bart
+[DEBUG] 2023-02-26 22:47:35.646 [main] UserDao - Searching for User with firstName == Bart
+[DEBUG] 2023-02-26 22:48:19.343 [main] UserDao - Searching for User with email == lsimpson@email.com
+[DEBUG] 2023-02-26 22:49:21.952 [main] UserDao - Searching for User with email == lsimpson@email.com
+[DEBUG] 2023-02-26 22:58:21.051 [main] UserDao - The list of Users [User{id=1, firstName='Homer', lastName='Simpson', userName='hsimpson', password='donuts1', email='hsimpson@email.com'}, User{id=2, firstName='Marge', lastName='Simpson', userName='msimpson', password='donuts2', email='msimpson@email.com'}, User{id=3, firstName='Bart', lastName='Simpson', userName='bsimpson', password='donuts3', email='bsimpson@email.com'}, User{id=4, firstName='Lisa', lastName='Simpson', userName='lsimpson', password='donuts4', email='lsimpson@email.com'}]
+[DEBUG] 2023-02-26 22:58:21.096 [main] UserDao - Searching for User with firstName == Bart
+[DEBUG] 2023-02-26 22:58:21.105 [main] UserDao - Searching for User with email = b

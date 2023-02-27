@@ -17,7 +17,7 @@ public class UserDaoTest {
     /**
      * The User dao.
      */
-    // TODO: Try with GenericDao, once all tests pass...
+    // TODO: Try with GenericDao?
 //    GenericDao<User> UserDao;
     UserDao userDao;
 
@@ -40,80 +40,59 @@ public class UserDaoTest {
         assertEquals(4, Users.size());
     }
 
-//    @Test
-//    void getAllUserByNameSuccess() {
-//        List<User> bartUser = userDao.getByPropertyEqual("firstName", "Bart");
-//        assertEquals(1, bartUser.size());
-//        assertEquals(bartUser, userDao.getByPropertyEqual("firstName", "Bart"));
-//        assertEquals(bartUser, userDao.getByPropertyEqual("email", "bsimpson@email.com"));
-//    }
+    @Test
+    void getAllUserByNameSuccess() {
+        List<User> bartUser = userDao.getByPropertyEqual("firstName", "Bart");
+        assertEquals(1, bartUser.size());
+        List<User> bartEmail = userDao.getByPropertyLike("email", "b");
+        assertEquals(1, bartEmail.size());
+    }
 
     /**
      * Gets by id success.
      */
-    @Disabled
     @Test
     void getByIdSuccess() {
-//        User retrievedUser = (User)UserDao.getById(4);
-//        assertNotNull(retrievedUser);
-//        assertEquals(retrievedUser, UserDao.getByPropertyEqual("email", "lsimpson@email.com"));
-//        assertEquals(retrievedUser, UserDao.getByPropertyEqual("firstName", "Lisa"));
+        User retrievedUser = userDao.getById(4);
+        assertNotNull(retrievedUser);
+        String fName = retrievedUser.getFirstName();
+        assertEquals("Lisa", fName);
+        String email = retrievedUser.getEmail();
+        assertEquals("lsimpson@email.com", retrievedUser.getEmail());
     }
 
     /**
      * Insert User success.
      */
-    @Disabled
     @Test
     void insertUserSuccess() {
         User newUser = new User("Maggie", "Simpson", "magssimpson", "donuts5", "maggiesimpsom@email.com");
         int id = userDao.insert(newUser);
         assertNotEquals(0, id);
         User insertedUser = userDao.getById(id);
-        assertEquals(insertedUser, newUser);
+        assertTrue(insertedUser.equals(newUser));
     }
 
     /**
      * Update User success.
      */
-    @Disabled
     @Test
     void updateUserSuccess() {
-//        String wrongName = "Steven";
-//        User UserToUpdate = (User)UserDao.getById(4);
-//        UserToUpdate.setFirstName(wrongName);
-//        UserDao.saveOrUpdate(UserToUpdate);
-//        User retrievedUser = (User)UserDao.getById(4);
+        String wrongName = "Harold";
+        User UserToUpdate = userDao.getById(1);
+        UserToUpdate.setFirstName(wrongName);
+        userDao.saveOrUpdate(UserToUpdate);
+        User retrievedUser = userDao.getById(1);
 //        assertEquals(wrongName, retrievedUser.getFirstName());
-    }
-
-    /**
-     * Insert new book and User success.
-     */
-    @Disabled
-    @Test
-    void insertNewBookANDUserSuccess() {
-//        User jkRowling = new User("J.K.", "Rowling");
-//        int idUser = UserDao.insert(jkRowling);
-//        Book newBook = new Book("Harry Potter and the Sorcerer's Stone", jkRowling, "978-0439708180", 1998);
-//        int idBook = bookDao.insert(newBook);
-//        User retrieveJK = (User)UserDao.getById(idUser);
-//        Book retrieveHP = (Book)bookDao.getById(idBook);
-//        assertEquals(idUser, retrieveJK.getId());
-//        assertEquals(idBook, retrieveHP.getId());
+        assertTrue(wrongName.equals(retrievedUser.getFirstName()));
     }
 
     /**
      * Delete User success.
      */
-    @Disabled
     @Test
     void deleteUserSuccess() {
-        // needs to delete the books as well
-//        UserDao.deleteEntity(UserDao.getById(4));
-//        assertNull(UserDao.getById(4));
-//        assertNotEquals("Carrie", bookDao.getByPropertyLike("title", "Ca"));
-//        assertNotEquals("Firestarter", bookDao.getByPropertyEqual("title", "Firestarter"));
-//        assertNull(bookDao.getById(7)); // King book - "It"
+        userDao.delete(userDao.getById(3));
+        assertNull(userDao.getById(3));
     }
 }
