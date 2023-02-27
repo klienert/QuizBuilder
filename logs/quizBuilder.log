@@ -1,0 +1,12 @@
+[ERROR] 2023-02-26 18:21:09.426 [main] Database - java.sql.SQLSyntaxErrorException: You have an error in your SQL syntax; check the manual that corresponds to your MySQL server version for the right syntax to use near ''user' VALUES (1, 'Homer', 'Simpson', 'hsimpson', 'donuts1', 'hsimpson@email.com' at line 1
+[ERROR] 2023-02-26 21:22:29.966 [main] Database - java.sql.SQLException: Can not issue empty query.
+[ERROR] 2023-02-26 21:37:10.589 [main] Database - java.sql.SQLException: Can not issue empty query.
+[ERROR] 2023-02-26 21:37:11.209 [main] Database - java.sql.SQLException: Can not issue empty query.
+[ERROR] 2023-02-26 21:39:51.857 [main] Database - java.sql.SQLException: Can not issue empty query.
+[ERROR] 2023-02-26 21:39:52.482 [main] Database - java.sql.SQLException: Can not issue empty query.
+[DEBUG] 2023-02-26 21:39:52.486 [main] UserDao - Searching for User with firstName == Bart
+[ERROR] 2023-02-26 21:41:12.877 [main] Database - java.sql.SQLException: Can not issue empty query.
+[ERROR] 2023-02-26 21:41:13.418 [main] Database - java.sql.SQLException: Can not issue empty query.
+[ERROR] 2023-02-26 21:53:04.307 [main] Database - java.sql.SQLException: Cannot drop table 'user' referenced by a foreign key constraint 'FK_user_ID' on table 'quiz'.
+[ERROR] 2023-02-26 21:53:04.831 [main] Database - java.sql.SQLException: Cannot drop table 'user' referenced by a foreign key constraint 'FK_user_ID' on table 'quiz'.
+[DEBUG] 2023-02-26 22:38:17.933 [main] UserDao - The list of Users [User{id=1, firstName='Homer', lastName='Simpson', userName='hsimpson', password='donuts1', email='hsimpson@email.com'}, User{id=2, firstName='Marge', lastName='Simpson', userName='msimpson', password='donuts2', email='msimpson@email.com'}, User{id=3, firstName='Bart', lastName='Simpson', userName='bsimpson', password='donuts3', email='bsimpson@email.com'}, User{id=4, firstName='Lisa', lastName='Simpson', userName='lsimpson', password='donuts4', email='lsimpson@email.com'}]
