@@ -5,30 +5,31 @@
 - [x] Create project repository on GitHub
 - [x] Develop Project Structure
 - [x] Add link to student repo
-- [ ] Write project plan
+- [x] Write project plan
 
 ### Week 4
-- [ ] Create DB 
+- [x] Create DB 
 - [ ] userTables:
-  - [ ] USER
-  - [ ] QUIZ
+  - [x] USER
+  - [x] QUIZ
   - [ ] QUESTION
   - [ ] QUIZ_ANSWER
   - [ ] ATTEMPT
   - [ ] ATTEMPT_ANSWER  
 ### Week 5
-- [ ] Build index JSP
+- [x] Build index JSP
 - [ ] build question JSP
-- [ ] POJO for user
-- [ ] DAO for user
+- [x] POJO for user
+- [x] DAO for user
 - [ ] DAO for quiz
 ### Week 6
 - [ ] Build userLogin JSP
 - [ ] Build userRegister JSP
 - [ ] Build userProfile JSP 
-
-* will add more by the end of week 6
 ### Week 7
+- [ ] Re-configure Quiz - Question - attempts relationship
+  - [ ] Multiple Quizzes, Multiple Answers, Multiple attempts by users
+  - [ ] Need to figure out the 'Teachers'/Admin half...
 ### Week 8
 ### Week 9
 ### Week 10
