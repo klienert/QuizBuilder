@@ -7,11 +7,11 @@
         $('#userTable').DataTable();
     } );
 </script>
+
 <html>
 <body>
-
-<div class="container-fluid">
-
+<div class="container">
+    <%@include file="nav.jsp"%>
     <div class="col-sm-8"><h2>Search Results</h2></div>
     <table id="userTable" class="table table-bordered" cellspacing="0" width="100%">
         <thead>
@@ -30,7 +30,6 @@
         </tbody>
     </table>
 </div>
-
 </body>
 </html>
 

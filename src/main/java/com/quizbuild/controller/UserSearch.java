@@ -23,7 +23,7 @@ public class UserSearch extends HttpServlet {
 
 //        conditional for buttons
         if (req.getParameter("submit").equals("search")) {
-            req.setAttribute("users", dao.getByPropertyEqual("lastName", (req.getParameter("searchTerm"))));
+            req.setAttribute("users", dao.getByPropertyLike("lastName", (req.getParameter("searchTerm"))));
         } else {
             req.setAttribute("users", dao.getAll());
         }
