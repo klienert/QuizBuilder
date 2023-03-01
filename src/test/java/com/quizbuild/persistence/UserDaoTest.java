@@ -1,10 +1,10 @@
-package quizbuild.persistence;
+package com.quizbuild.persistence;
 
-import org.junit.jupiter.api.Disabled;
-import quizbuild.entity.User;
+import com.quizbuild.testUtils.Database;
+import com.quizbuild.entity.User;
 import org.junit.jupiter.api.BeforeEach;
 import org.junit.jupiter.api.Test;
-import quizbuild.testUtils.Database;
+
 import java.util.List;
 import static org.junit.jupiter.api.Assertions.*;
 
