@@ -14,6 +14,8 @@ import static org.junit.jupiter.api.Assertions.*;
  */
 public class UserDaoTest {
 
+
+
     /**
      * The User dao.
      */
@@ -96,3 +98,4 @@ public class UserDaoTest {
         assertNull(userDao.getById(3));
     }
 }
+
