@@ -38,7 +38,7 @@ public class UserSignUp extends HttpServlet {
         GenericDao dao = DaoFactory.createDao(User.class);
         dao.insert(user);
 
-    }
-    RequestDispatcher dispatcher = req.getRequestDispatcher("/signUpConfirmation.jsp");
+        RequestDispatcher dispatcher = req.getRequestDispatcher("/signUpConfirmation.jsp");
         dispatcher.forward(req, resp);
+    }
 }
