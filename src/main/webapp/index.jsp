@@ -3,7 +3,7 @@
 <html>
 <body>
 <div class="container-fluid">
-    <h2>User Display Exercise</h2>
+    <h2>Quiz Builder Display</h2>
 
 <%--    <a href = "searchUser">Go to the User Search</a>--%>
 <%--    Add buttons for search--%>
