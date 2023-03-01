@@ -1,4 +1,4 @@
-package quizbuild.persistence;
+package com.quizbuild.persistence;
 
 import org.hibernate.SessionFactory;
 import org.hibernate.boot.Metadata;

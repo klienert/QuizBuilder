@@ -1,9 +1,8 @@
-package quizbuild.entity;
+package com.quizbuild.entity;
 
 import org.hibernate.annotations.GenericGenerator;
 
 import javax.persistence.*;
-import java.util.Objects;
 
 /**
  * Quiz object

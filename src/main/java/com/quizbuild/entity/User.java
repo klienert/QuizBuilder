@@ -1,4 +1,4 @@
-package quizbuild.entity;
+package com.quizbuild.entity;
 
 import javax.persistence.*;
 import java.util.HashSet;

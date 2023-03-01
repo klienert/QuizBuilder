@@ -1,4 +1,4 @@
-package quizbuild.persistence;
+package com.quizbuild.persistence;
 
 import org.apache.logging.log4j.LogManager;
 import org.apache.logging.log4j.Logger;
