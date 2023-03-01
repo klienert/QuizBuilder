@@ -5,11 +5,15 @@ import com.quizbuild.entity.User;
 
 import javax.servlet.RequestDispatcher;
 import javax.servlet.ServletException;
+import javax.servlet.annotation.WebServlet;
 import javax.servlet.http.HttpServlet;
 import javax.servlet.http.HttpServletRequest;
 import javax.servlet.http.HttpServletResponse;
 import java.io.IOException;
 
+@WebServlet(
+        urlPatterns = {"/searchUser"}
+)
 public class UserSearch extends HttpServlet {
 
     @Override
