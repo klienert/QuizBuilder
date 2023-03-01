@@ -3,29 +3,29 @@
 <%@include file="head.jsp"%>
 
 
-<script type="text/javascript" class="init">
-    $(document).ready( function () {
-        $('#userTable').DataTable();
-    } );
-</script>
+<%--<script type="text/javascript" class="init">--%>
+<%--    $(document).ready( function () {--%>
+<%--        $('#userTable').DataTable();--%>
+<%--    } );--%>
+<%--</script>--%>
 
 
-<style type="text/css">
+<%--<style type="text/css">--%>
 
-    table.table td a.add {
-        color: #27C46B;
-    }
-    table.table td a.edit {
-        color: #FFC107;
-    }
-    table.table td a.delete {
-        color: #E34724;
-    }
-    table.table td i {
-        font-size: 19px;
-    }
+<%--    table.table td a.add {--%>
+<%--        color: #27C46B;--%>
+<%--    }--%>
+<%--    table.table td a.edit {--%>
+<%--        color: #FFC107;--%>
+<%--    }--%>
+<%--    table.table td a.delete {--%>
+<%--        color: #E34724;--%>
+<%--    }--%>
+<%--    table.table td i {--%>
+<%--        font-size: 19px;--%>
+<%--    }--%>
 
-</style>
+<%--</style>--%>
 
 <html>
 <body>
@@ -39,14 +39,14 @@
         <th>Name</th>
         <th>User Name</th>
         <th>Age</th>
-        <th>Action</th>
+        <th>Email</th>
         </thead>
         <tbody>
         <c:forEach var="user" items="${users}">
             <tr>
                 <td>${user.firstName} ${user.lastName}</td>
                 <td>${user.userName}</td>
-                <td>${user.age}</td>
+                <td>${user.email}</td>
 <%--                <td><a class='add' title="Add" data-toggle="tooltip" href="editUser.jsp"><i class="material-icons" >&#xe146;</i></a>--%>
 <%--                    <a class="edit" title="Edit" data-toggle="tooltip" href="editUser?id=${user.id}"><i class="material-icons" >&#xE254;</i></a>--%>
 <%--                    <a class="delete" title="Delete" data-toggle="tooltip" href="deleteUser?id=${user.id}"><i class="material-icons" >&#xE872;</i></a></td>--%>
