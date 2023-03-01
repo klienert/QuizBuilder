@@ -92,7 +92,7 @@
   </dependencies>
 
   <build>
-    <finalName>GroceryListBuilder</finalName>
+    <finalName>QuizBuilder</finalName>
     <pluginManagement>
       <plugins>
         <plugin>
