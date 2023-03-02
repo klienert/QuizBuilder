@@ -57,7 +57,7 @@ public class GenericDao<T> {
      *
      * @param entity the entity
      */
-    public void deleteEntity(T entity) {
+    public void delete(T entity) {
         Session session = getSession();
         Transaction transaction = session.beginTransaction();
         session.delete(entity);

@@ -1,16 +1,32 @@
-<%--
-  Created by IntelliJ IDEA.
-  User: keithlienert
-  Date: 3/1/23
-  Time: 5:17 PM
-  To change this template use File | Settings | File Templates.
---%>
-<%@ page contentType="text/html;charset=UTF-8" language="java" %>
+<%@include file="taglib.jsp"%>
+<c:set var="title" value="Search Results" />
+<%@include file="head.jsp"%>
+
 <html>
-  <head>
-    <title>$Title$</title>
-  </head>
-  <body>
-  $END$
-  </body>
+<body>
+<div class="container">
+    <%@include file="nav.jsp"%>
+
+    <c:choose>
+        <c:when test = "${errorMessage == null}">
+            <div class="alert alert-success" role="alert">
+                <strong>New User Registration -- Success</strong> Time to add a new trail or report!
+            </div>
+        </c:when>
+        <c:otherwise>
+            <div class="alert alert-danger" role="alert">
+                <strong>New User Registration -- Failed</strong><br />
+                ${errorMessage}<br /><br />
+                <a href="signUp.jsp"><button type="button" class="btn btn-primary">
+                    Retry</button></a>
+                <a href="results.jsp"><button type="button" class="btn btn-default">Cancel (Results)
+
+            </div>
+        </c:otherwise>
+    </c:choose>
+</div>
+
+
+
+</body>
 </html>

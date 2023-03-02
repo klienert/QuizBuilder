@@ -27,7 +27,7 @@ public class UserSignUp extends HttpServlet {
         User user = new User();
         // set fields
         user.setUserName(req.getParameter("userName"));
-        user.setEmail(req.getParameter("email"));
+        user.setEmail(req.getParameter("emailAddress"));
         user.setFirstName(req.getParameter("firstName"));
         user.setLastName(req.getParameter("lastName"));
         user.setPassword(req.getParameter("password"));

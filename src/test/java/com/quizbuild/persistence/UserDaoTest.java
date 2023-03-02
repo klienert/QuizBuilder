@@ -8,27 +8,23 @@ import org.junit.jupiter.api.Test;
 import java.util.List;
 import static org.junit.jupiter.api.Assertions.*;
 
-
 /**
  * The type User dao test.
  */
 public class UserDaoTest {
-
-
-
     /**
      * The User dao.
      */
-    // TODO: Try with GenericDao?
-//    GenericDao<User> UserDao;
-    UserDao userDao;
+    GenericDao<User> userDao;
+//    UserDao userDao;
 
     /**
      * Sets up.
      */
     @BeforeEach
     void setUp() {
-        userDao = new UserDao();
+//        userDao = new UserDao();
+        userDao = new GenericDao<>(User.class);
         Database database = Database.getInstance();
         database.runSQL("cleandb.sql");
     }

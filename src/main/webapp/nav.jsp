@@ -18,6 +18,7 @@
                 <a class="nav-link" href="#">About</a>
             </li>
         </ul>
-        <a class="navbar-brand my-2 my-lg-0" href="#">Sign up/in</a>
+        <a class="navbar-brand my-2 my-lg-0" href="signUp.jsp">Sign up</a>
+        <a class="navbar-brand my-2 my-lg-0" href="#">Sign in</a>
     </div>
 </nav>
