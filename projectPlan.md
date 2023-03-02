@@ -12,24 +12,25 @@
 - [ ] userTables:
   - [x] USER
   - [x] QUIZ
-  - [ ] QUESTION
-  - [ ] QUIZ_ANSWER
+  - [X] QUESTION
+  - [X] QUIZ_ANSWER
   - [ ] ATTEMPT
   - [ ] ATTEMPT_ANSWER  
 ### Week 5
 - [x] Build index JSP
-- [ ] build question JSP
+- [ ] Build question JSP
 - [x] POJO for user
 - [x] DAO for user
 - [ ] DAO for quiz
 ### Week 6
 - [ ] Build userLogin JSP
-- [ ] Build userRegister JSP
+- [x] Build userRegister JSP
 - [ ] Build userProfile JSP 
 ### Week 7
 - [ ] Re-configure Quiz - Question - attempts relationship
   - [ ] Multiple Quizzes, Multiple Answers, Multiple attempts by users
   - [ ] Need to figure out the 'Teachers'/Admin half...
+- [ ] Get the project up on AWS
 ### Week 8
 ### Week 9
 ### Week 10
