@@ -17,8 +17,7 @@
         <button type="submit" name="submit" value="viewAll" class="btn btn-primary m-2">View all users</button>
     </form>
     <hr>
-    <%--    Left side "welcome" --%>
-    <%--    Right side card, sample quiz or featured quiz --%>
+
     <div class="row">
         <div class="col-8">
             <h3>Welcome to Quiz Builder</h3>

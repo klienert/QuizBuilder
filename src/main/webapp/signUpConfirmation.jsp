@@ -10,7 +10,7 @@
     <c:choose>
         <c:when test = "${errorMessage == null}">
             <div class="alert alert-success" role="alert">
-                <strong>New User Registration -- Success</strong> Time to add a new trail or report!
+                <strong>New User Registration -- Success</strong> Welcome!
             </div>
         </c:when>
         <c:otherwise>
