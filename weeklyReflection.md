@@ -28,6 +28,9 @@ Main learning points were
 
 ### Week 6
 
+Made some significant progress on getting my app 'live' via AWS, also have a working Sign-In link to a form to add a generic user
+This this also shows who are the 'registered users' in a table (interacting with the DB)
+
 ### Week 7
 
 ### Week 9

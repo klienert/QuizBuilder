@@ -17,10 +17,9 @@
             <div class="alert alert-danger" role="alert">
                 <strong>New User Registration -- Failed</strong><br />
                 ${errorMessage}<br /><br />
-                <a href="signUp.jsp"><button type="button" class="btn btn-primary">
-                    Retry</button></a>
-                <a href="results.jsp"><button type="button" class="btn btn-default">Cancel (Results)
-
+                <a href="signUp.jsp"><button type="button" class="btn btn-primary">Retry</button></a>
+                <a href="results.jsp"><button type="button" class="btn btn-default">Cancel (Results)</button></a>
+                <a href="results.jsp"><button type="button" class="btn btn-default">Cancel (Results)</button></a>
             </div>
         </c:otherwise>
     </c:choose>
