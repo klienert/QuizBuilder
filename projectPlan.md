@@ -23,13 +23,13 @@
 - [x] DAO for user
 - [ ] DAO for quiz
 ### Week 6
-- [ ] Build userLogin JSP
+- [x] Build userLogin JSP
 - [x] Build userRegister JSP
 - [ ] Build userProfile JSP 
 ### Week 7
 - [ ] Re-configure Quiz - Question - attempts relationship
   - [ ] Multiple Quizzes, Multiple Answers, Multiple attempts by users
-  - [ ] Need to figure out the 'Teachers'/Admin half...
+  - [ ] Need to figure out the 'Teachers'/Admin half... *EDIT* This will be postponed for v. 2
 - [ ] Get the project up on AWS
 ### Week 8
 ### Week 9

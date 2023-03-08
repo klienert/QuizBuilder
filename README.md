@@ -4,10 +4,15 @@
 This app is an online quiz builder.
 Teachers can build their own quizzes on this platform.
 Students will be able to log-in, select their teacher, select the quiz and see the results thereafter. 
- 
-
-
-
+###### Version 1
+* User (student) 
+  * signup/login
+  * Take Quizzes
+  * See results/attempts
+  * CRUD capabilities
+* Quizzes
+  * Multiple-Choice
+  * True-False 
 
 
 ### Project Technologies/Techniques

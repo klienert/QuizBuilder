@@ -29,10 +29,11 @@ Main learning points were
 ### Week 6
 
 Made some significant progress on getting my app 'live' via AWS, also have a working Sign-In link to a form to add a generic user
-This this also shows who are the 'registered users' in a table (interacting with the DB)
+This also shows who are the 'registered users' in a table (interacting with the DB)
 
 ### Week 7
-
+After a brief chat w/ Paula, I've decided to focus on the User profile for the CRUD and adding the Admin role in a second version of the app.
+Goals this week and next (spring break) include creating my first quiz.
 ### Week 9
 
 ### Week 10
